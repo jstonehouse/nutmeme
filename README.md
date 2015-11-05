@@ -7,7 +7,7 @@ Selenium Webdriver
 
 Setup
 assuming you have ruby installed
-
+https://github.com/jstonehouse/nutmeme
 clone project locally 
 bundle install
 
