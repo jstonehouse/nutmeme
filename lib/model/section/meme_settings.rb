@@ -4,8 +4,8 @@ module Model
 
 			#element  :meme_settings,		      "#mm-settings"
 			elements :meme_carousel,					".im"
-			element  :top_text,								"textarea[placeholder='TOP TEXT']"
-			element  :bottom_text,					"textarea[placeholder='BOTTOM TEXT']"
+			#element  :top_text,								"textarea[placeholder='TOP TEXT']"
+			#element  :bottom_text,					"textarea[placeholder='BOTTOM TEXT']"
 
 
 			def select_random_template

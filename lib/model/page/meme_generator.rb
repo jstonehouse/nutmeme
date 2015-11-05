@@ -4,8 +4,8 @@ module Model
 				set_url "https://imgflip.com/memegenerator"
 				
 				element  :generate,                 ".mm-generate"
-				#element  :top_text,								"textarea[placeholder='TOP TEXT']"
-			  #element  :bottom_text,						"textarea[placeholder='BOTTOM TEXT']"
+				element  :top_text,								"textarea[placeholder='TOP TEXT']"
+			  element  :bottom_text,						"textarea[placeholder='BOTTOM TEXT']"
 				section  :meme_settings, 							Model::Section::MemeSettings, 	"#mm-settings"
 
 
