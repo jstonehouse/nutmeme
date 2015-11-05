@@ -1,0 +1,7 @@
+defaults: &execution_defaults
+ default_config: test
+
+ #config
+qa:
+  <<: *execution_defaults  
+  site_url: https://imgflip.com

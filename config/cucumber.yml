@@ -1,0 +1,1 @@
+default: ENVIRONMENT=qa BROWSER=chrome 
